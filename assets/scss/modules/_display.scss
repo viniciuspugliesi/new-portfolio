@@ -1,0 +1,22 @@
+
+// Display
+
+.flex {
+    display: flex;
+    
+    &.wrap {
+        flex-wrap: wrap-reverse;
+    }
+    
+    &.center {
+        justify-content: center;
+    }
+    
+    &.end {
+        justify-content: center;
+    }
+    
+    &>.item {
+        flex: 0 1 auto;
+    }
+}

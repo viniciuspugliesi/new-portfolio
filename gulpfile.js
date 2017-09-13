@@ -40,7 +40,7 @@ gulp.task('html', function(){
     .pipe(gulp.dest( paths.dest.html ));
 });
 
-gulp.task('css', function(){
+gulp.task('sass', function(){
  gulp.src(paths.src.sass)
      .pipe(plumber())
      .pipe(sass())
@@ -78,9 +78,9 @@ gulp.task('imagemin', function(){
 //WATCH
 gulp.task('watch', function(){
   gulp.watch(paths.src.html, ['html']);
-  gulp.watch(paths.src.sass_admin, ['css']);
+  gulp.watch(paths.src.sass, ['sass']);
   gulp.watch(paths.src.js, ['js']);
   gulp.watch(paths.src.img, ['imagemin']);
 });
 
-gulp.task('default', ['html', 'css', 'js', 'imagemin', 'watch']);
+gulp.task('default', ['html', 'sass', 'js', 'imagemin', 'watch']);
