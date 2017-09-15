@@ -1,23 +1,29 @@
 
 // Alert
 
-.alert {
+[class*="alert"] {
     padding: 15px;
-    border: 1px solid #eee;
-    
-    &-success {
-        background-color: #b9df90;
+    border: 1px solid #f9f9f9;
+    background: #f6f6f6;
+}
+
+.alert {
+    &--success {
+        border-left: 8px solid $success;
     }
     
-    &-danger {
-        background-color: #f2838f;
+    &--danger {
+        border-left: 8px solid $danger;
+        background: linear-gradient(to right, #c0e29c, #cde8b0, #d9eec4);
     }
     
-    &-warning {
-        background-color: #ffdd87;
+    &--warning {
+        border-left: 8px solid $warning;
+        background: linear-gradient(to right, #c0e29c, #cde8b0, #d9eec4);
     }
     
-    &-info {
-        background-color: #7cd1ef;
+    &--info {
+        border-left: 8px solid $info;
+        background: linear-gradient(to right, #c0e29c, #cde8b0, #d9eec4);
     }
 }

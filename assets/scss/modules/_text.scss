@@ -1,0 +1,24 @@
+
+// Text
+
+.text {
+    font-family: "Arial";
+    font-size: 14px;
+    color: $third;
+    
+    &--center {
+        text-align: center;
+    }
+    
+    &--justify {
+        text-align: justify;
+    }
+    
+    &--right {
+        text-align: right;
+    }
+    
+    &--left {
+        text-align: left;
+    }
+}

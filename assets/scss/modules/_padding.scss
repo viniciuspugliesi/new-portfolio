@@ -4,7 +4,7 @@
 .pd {
     padding: 10px;
     
-    @for $i from 10 through 30 {
+    @for $i from 10 through 50 {
         
         @if $i % 2 == 0 {
             

@@ -9,25 +9,27 @@
         }
         .item {
             width: 500px;
-            /*height: 50px;*/
+            height: 50px;
             border: 1px solid #000;
         }
     </style>
 </head>
 <body>
     <!-- header -->
-    <header>
-        <div class="container flex align-strech">
-            <div class="item">1</div>
-            <div class="item">2</div>
-            <div class="item">3</div>
-            <div class="item">4</div>
-        </div>
-    </header>
+    <!--<header>-->
+    <!--    <div class="container flex column align-center">-->
+    <!--        <div class="item text text--center mg">1 - teste</div>-->
+    <!--        <div class="item text text--center mg">2 - teste</div>-->
+    <!--        <div class="item text text--center mg">3 - teste</div>-->
+    <!--        <div class="item text text--center mg">4 - teste</div>-->
+    <!--    </div>-->
+    <!--</header>-->
     
     <!-- main -->
-    <main>
-        
+    <main class="pd-50">
+        <div class="flex alert--success">
+            Success message
+        </div>
     </main>
     
     <!-- footer -->
