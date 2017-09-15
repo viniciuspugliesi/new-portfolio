@@ -1,0 +1,32 @@
+
+// Margin
+
+.mg {
+    margin: 10px;
+    
+    @for $i from 10 through 30 {
+        
+        @if $i % 2 == 0 {
+            
+            &-#{$i} {
+                margin: #{$i}px;
+            }
+            
+            &-#{$i}--top {
+                margin-top: #{$i}px;
+            }
+            
+            &-#{$i}--right {
+                margin-right: #{$i}px;
+            }
+            
+            &-#{$i}--bottom {
+                margin-bottom: #{$i}px;
+            }
+            
+            &-#{$i}--left {
+                margin-left: #{$i}px;
+            }
+        }
+    }
+}
