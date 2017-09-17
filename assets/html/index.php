@@ -5,8 +5,20 @@
 </head>
 <body>
     <!-- header -->
-    <header>
-        
+    <header class="flex">
+        <div class="container">
+            <div class="logo">
+                <img src="" alt="">
+            </div>
+            
+            <ul class="nav">
+                <li>Home</li>
+                <li>Pratice areas</li>
+                <li>Our vision</li>
+                <li>Attorneys</li>
+                <li>Contact</li>
+            </ul>
+        </div>
     </header>
     
     <!-- main -->
