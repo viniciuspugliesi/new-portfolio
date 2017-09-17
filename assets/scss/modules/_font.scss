@@ -1,6 +1,11 @@
 
 // Fonts
 
+* {
+    font-family: Open sans;
+    font-size: 14px;
+}
+
 @for $i from 10 through 30 {
     
     @if $i % 2 == 0 {
