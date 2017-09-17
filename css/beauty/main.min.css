@@ -90,6 +90,36 @@
     align-items: baseline
 }
 
+.flex>.item.self-start {
+    -webkit-align-self: flex-start;
+    -ms-flex-item-align: start;
+    align-self: flex-start
+}
+
+.flex>.item.self-end {
+    -webkit-align-self: flex-end;
+    -ms-flex-item-align: end;
+    align-self: flex-end
+}
+
+.flex>.item.self-center {
+    -webkit-align-self: center;
+    -ms-flex-item-align: center;
+    align-self: center
+}
+
+.flex>.item.self-strech {
+    -webkit-align-self: strech;
+    -ms-flex-item-align: strech;
+    align-self: strech
+}
+
+.flex>.item.self-baseline {
+    -webkit-align-self: baseline;
+    -ms-flex-item-align: baseline;
+    align-self: baseline
+}
+
 .alert {
     padding: 15px
 }

@@ -8,4 +8,4 @@
             height: 50px;
             border: 1px solid #000;
         }
-    </style></head><body><main class="pd-50"><div class="flex mg alert alert--success"> Success message</div><div class="flex mg alert alert--danger"> Danger message</div><div class="flex mg alert alert--info"> Info message</div><div class="flex mg alert alert--warning"> Warning message</div></main><footer></footer></body></html>
+    </style></head><body><header></header><main></main><footer></footer></body></html>

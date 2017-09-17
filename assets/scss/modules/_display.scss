@@ -47,4 +47,27 @@
     &.align-baseline {
         align-items: baseline;
     }
+    
+    > .item {
+        
+        &.self-start {
+            align-self: flex-start;
+        }
+        
+        &.self-end {
+            align-self: flex-end;
+        }
+        
+        &.self-center {
+            align-self: center;
+        }
+        
+        &.self-strech {
+            align-self: strech;
+        }
+        
+        &.self-baseline {
+            align-self: baseline;
+        }
+    }
 }

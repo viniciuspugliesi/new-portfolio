@@ -18,29 +18,13 @@
 </head>
 <body>
     <!-- header -->
-    <!--<header>-->
-    <!--    <div class="container flex column align-center">-->
-    <!--        <div class="item text text--center mg">1 - teste</div>-->
-    <!--        <div class="item text text--center mg">2 - teste</div>-->
-    <!--        <div class="item text text--center mg">3 - teste</div>-->
-    <!--        <div class="item text text--center mg">4 - teste</div>-->
-    <!--    </div>-->
-    <!--</header>-->
+    <header>
+        
+    </header>
     
     <!-- main -->
-    <main class="pd-50">
-        <div class="flex mg alert alert--success">
-            Success message
-        </div>
-        <div class="flex mg alert alert--danger">
-            Danger message
-        </div>
-        <div class="flex mg alert alert--info">
-            Info message
-        </div>
-        <div class="flex mg alert alert--warning">
-            Warning message
-        </div>
+    <main>
+        
     </main>
     
     <!-- footer -->
