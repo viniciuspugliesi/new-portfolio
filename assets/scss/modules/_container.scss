@@ -2,8 +2,13 @@
 // Container
 
 .container {
-    background: blue;
     max-width: 80%;
     width: 1200px;
+    margin: 0 auto;
+}
+
+.container-small {
+    max-width: 70%;
+    width: 990px;
     margin: 0 auto;
 }

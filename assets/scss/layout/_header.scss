@@ -2,11 +2,22 @@
 // Header
 
 header {
-    background: red;
-    height: 80px;
+    width: 100%;
+    height: 78px;
+    position: fixed;
+    border-bottom: 2px solid rgba(204, 204, 204, 0.3);
     
     .nav {
-        list-style: none;
         display: flex;
+        
+        .menu {
+            padding: 0 18px;
+            
+            a {
+                text-transform: uppercase;
+                color: #0F4C85;
+                font-size: 13px;
+            }
+        }
     }
 }

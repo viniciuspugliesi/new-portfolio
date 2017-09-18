@@ -6,17 +6,29 @@
 <body>
     <!-- header -->
     <header class="flex">
-        <div class="container">
-            <div class="logo">
-                <img src="" alt="">
+        <div class="container-small flex content-between align-stretch">
+            <div class="item self-center">
+                <a href="#" title="Home">
+                    <img src="images/logo.png" alt="Logo" class="logo">
+                </a>
             </div>
             
-            <ul class="nav">
-                <li>Home</li>
-                <li>Pratice areas</li>
-                <li>Our vision</li>
-                <li>Attorneys</li>
-                <li>Contact</li>
+            <ul class="item self-center nav">
+                <li class="menu">
+                    <a href="#">Home</a>
+                </li>
+                <li class="menu">
+                    <a href="#">Pratice areas</a>
+                </li>
+                <li class="menu">
+                    <a href="#">Our vision</a>
+                </li>
+                <li class="menu">
+                    <a href="#">Attorneys</a>
+                </li>
+                <li class="menu">
+                    <a href="#">Contact</a>
+                </li>
             </ul>
         </div>
     </header>

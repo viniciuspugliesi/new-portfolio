@@ -13,10 +13,23 @@
     margin: 0
 }
 
+ul {
+    list-style: none
+}
+
+a {
+    text-decoration: none
+}
+
 .container {
-    background: #00f;
     max-width: 80%;
     width: 1200px;
+    margin: 0 auto
+}
+
+.container-small {
+    max-width: 70%;
+    width: 990px;
     margin: 0 auto
 }
 
@@ -58,11 +71,11 @@
     justify-content: space-around
 }
 
-.flex.content-beteween {
-    -webkit-box-pack: space-beteween;
-    -webkit-justify-content: space-beteween;
-    -ms-flex-pack: space-beteween;
-    justify-content: space-beteween
+.flex.content-between {
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between
 }
 
 .flex.align-start {
@@ -86,11 +99,11 @@
     align-items: center
 }
 
-.flex.align-strech {
-    -webkit-box-align: strech;
-    -webkit-align-items: strech;
-    -ms-flex-align: strech;
-    align-items: strech
+.flex.align-stretch {
+    -webkit-box-align: stretch;
+    -webkit-align-items: stretch;
+    -ms-flex-align: stretch;
+    align-items: stretch
 }
 
 .flex.align-baseline {
@@ -118,10 +131,10 @@
     align-self: center
 }
 
-.flex>.item.self-strech {
-    -webkit-align-self: strech;
-    -ms-flex-item-align: strech;
-    align-self: strech
+.flex>.item.self-stretch {
+    -webkit-align-self: stretch;
+    -ms-flex-item-align: stretch;
+    align-self: stretch
 }
 
 .flex>.item.self-baseline {
@@ -1098,14 +1111,25 @@
 }
 
 header {
-    background: red;
-    height: 80px
+    width: 100%;
+    height: 78px;
+    position: fixed;
+    border-bottom: 2px solid rgba(204,204,204,.3)
 }
 
 header .nav {
-    list-style: none;
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex
+}
+
+header .nav .menu {
+    padding: 0 18px
+}
+
+header .nav .menu a {
+    text-transform: uppercase;
+    color: #0F4C85;
+    font-size: 13px
 }
