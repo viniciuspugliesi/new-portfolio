@@ -1133,3 +1133,8 @@ header .nav .menu a {
     color: #0F4C85;
     font-size: 13px
 }
+
+footer {
+    height: 78px;
+    background: #ccc
+}

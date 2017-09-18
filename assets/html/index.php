@@ -35,12 +35,24 @@
     
     <!-- main -->
     <main>
-        
+        <br><br><br><br><br><br><br>
     </main>
     
     <!-- footer -->
-    <footer>
-        
+    <footer class="flex">
+        <div class="container-small flex content-between align-stretch">
+            <div class="item copyright self-center">
+                <p class="text">
+                    @ 2023 by Knoll & Walters LLP. Proudly created with Wix.com
+                </p>
+            </div>
+            
+            <div class="item">
+                <div class="social">
+                    
+                </div>
+            </div>
+        </div>
     </footer>
 </body>
 </html>
