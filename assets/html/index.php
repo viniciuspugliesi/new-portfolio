@@ -43,7 +43,7 @@
         <div class="container-small flex content-between align-stretch">
             <div class="item copyright self-center">
                 <p class="text">
-                    @ 2023 by Knoll & Walters LLP. Proudly created with Wix.com
+                    @ 2023 by Knoll & Walters LLP. Proudly created with <a href="http://wix.com/?utm_campaign=vir_created_with" target="_blank">Wix.com</a>
                 </p>
             </div>
             
