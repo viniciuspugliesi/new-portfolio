@@ -1136,5 +1136,5 @@ header .nav .menu a {
 
 footer {
     height: 78px;
-    background: #ccc
+    border-top: 2px solid rgba(204,204,204,.3)
 }

@@ -47,9 +47,17 @@
                 </p>
             </div>
             
-            <div class="item">
+            <div class="item self-center">
                 <div class="social">
-                    
+                    <a href="" class="">
+                        <img src="images/social/linkedin.png" alt="Linkedin" title="Linkedin">
+                    </a>
+                    <a href="" class="">
+                        <img src="images/social/twitter.png" alt="Twitter" title="Twitter">
+                    </a>
+                    <a href="" class="">
+                        <img src="images/social/google-plus.png" alt="Google Plus" title="Google Plus">
+                    </a>
                 </div>
             </div>
         </div>
