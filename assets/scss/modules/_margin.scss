@@ -1,4 +1,3 @@
-
 // Margin
 
 .mg {
@@ -10,6 +9,16 @@
             
             &-#{$i} {
                 margin: #{$i}px;
+            }
+            
+            &-#{$i}--vertical {
+                margin-top: #{$i}px;
+                margin-bottom: #{$i}px;
+            }
+            
+            &-#{$i}--horizontal {
+                margin-right: #{$i}px;
+                margin-left: #{$i}px;
             }
             
             &-#{$i}--top {
