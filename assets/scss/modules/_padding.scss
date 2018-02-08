@@ -1,4 +1,3 @@
-
 // Padding
 
 .pd {
@@ -10,6 +9,16 @@
             
             &-#{$i} {
                 padding: #{$i}px;
+            }
+            
+            &-#{$i}--vertical {
+                padding-top: #{$i}px;
+                padding-bottom: #{$i}px;
+            }
+            
+            &-#{$i}--horizontal {
+                padding-right: #{$i}px;
+                padding-left: #{$i}px;
             }
             
             &-#{$i}--top {
